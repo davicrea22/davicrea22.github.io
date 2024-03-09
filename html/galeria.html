@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style type="text/css">
+    #tabla_2 {
+    width: 100%;
+}
+.img_galeria   {
+    width: 100%;
+    height: auto;
+}
+    .filtro_grises {
+    filter: grayscale(100%);
+}
+    .filtro_contraste {
+    filter: contrast(150%);
+}
+    .filtro_blue {
+    filter: blue(3px);
+}
+    .filtro_opasidad {
+    filter: opacity(0.3);
+}
+    .filtro_sombra {
+    filter: drop-shadow(5px 5px 10px purple);
+}
+    .filtro_brillo {
+    filter: brightness(150%);
+}
+    .filtro_sepia {
+    filter: sepia(100);
+}
+    </style>
+</head>
+    <body>
+<style>
+    nav a: visited{
+        
+    }
+    nav a:hover{
+        text-decoration: none;
+        background-color: darkseagreen;
+        color: brown;
+    }
+    ul,ol{
+        padding: 10px 30px;
+    }
+    ul{
+        list-style-type: square;
+    }
+    ol{
+        list-style-type: upper-roman;
+    }
+    nav ul{
+       list-style-type: none;
+        text-align: center;
+}      
+    nav ul li{
+        display: inline-block;
+    }
+        </style>
+    <header>
+        <h1>Galeria</h1>
+        </header>
+    <nav>
+    <ul> 
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="../html/Practicas.html">Practicas</a></li>
+        <li><a href="contacto.html">Contacto</a></li> 
+     </ul>
+        </nav>
+        <main>
+<section class="section_galeria">
+<table id="tabla_2">
+       <thead>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td> <img src="../imagenes/papas%20.jpg" alt="foto papas" class="img_galeria filtro_grises"></td>
+                         <td> <img src="../imagenes/tito%20.jpg" class="img_galeria filtro_sepia" atlt="foto perfil"></td>
+                         <td><img src="../imagenes/IMG_20190804_003725.jpg" alt="" width="3120" height="4160" class="img_galeria filtro_sombra"/></td>
+                     </tr>
+                     <tr>
+                         <td><img src="../imagenes/IMG_2853.JPG" alt="" width="5184" height="3456" class="img_galeria filtro_brillo"/></td>
+                         <td> <img src="../imagenes/la%20malinch.JPG" alt="Foto malinche" class="img_galeria filtro_contraste"></td>
+                         <td><img src="../imagenes/IMG_20170712_181407.jpg" alt="" width="4160" height="3120" class="img_galeria"/></td>
+                     </tr>
+                     <tr>
+                         <td><img src="../imagenes/IMG_20180826_165724.jpg" alt="" width="4160" height="3120" class="img_galeria filtro_blue"/></td>
+                         <td><img src="../imagenes/IMG_20161101_200507.jpg" alt="" width="4160" height="3120" class="img_galeria filtro_opasidad"/></td>
+                         <td><img src="../imagenes/IMG_20170121_183301.jpg" alt="" width="4160" height="3120" class="img_galeria"/></td>
+                     </tr>
+                 </tbody>
+                 <tfoot>
+                 </tfoot>
+                
+                </table>
+<blockquote>&nbsp;</blockquote>
+            </section>
+        </main>
+        <footer>
+        <h6>Elaborado por David Hernández Flores</h6>
+        </footer>
+    </body>
+</html>

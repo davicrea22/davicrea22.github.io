@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+main section  {
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+    height: 300px;
+    padding: 50px;
+    overflow-y: auto;
+}
+main {
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Audios en html&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a>&nbsp;</li>
+    <li><a href="galeria.html">Galeria</a>&nbsp;</li>
+    <li><a href="Practicas.html">Practicas</a>&nbsp;</li>
+    <li><a href="contacto.html">Contacto</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit, qui recusandae accusamus suscipit deleniti iusto aliquam odio obcaecati dicta veniam numquam, mollitia, doloremque quaerat quas. Suscipit facilis dolores itaque?</p>
+    <audio controls>
+      <source src="../Audios/midnight-blues.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio&nbsp;Silenciado (muted)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit, qui recusandae accusamus suscipit deleniti iusto aliquam odio obcaecati dicta veniam numquam, mollitia, doloremque quaerat quas. Suscipit facilis dolores itaque?</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../Audios/midnight-blues.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio&nbsp;con reproduccion ciclica (loop)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit, qui recusandae accusamus suscipit deleniti iusto aliquam odio obcaecati dicta veniam numquam, mollitia, doloremque quaerat quas. Suscipit facilis dolores itaque?</p>
+    <audio controls="controls" loop="loop" >
+      <source src="../Audios/midnight-blues.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio de banco de audios</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis consequatur quibusdam nisi, dolore sit quia ullam esse explicabo dicta?</p>
+    <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_115769003_6_1.html?c1=9bc1bc' loading='lazy'></iframe>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por David Hernandez Flores</h6>
+&nbsp;</footer>
+</body>
+</html>

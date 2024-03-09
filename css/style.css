@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Sarabun", sans-serif;
+
+    background-color: #F4f1bb:
+}
+
+
+header,nav,main,footer{
+    width: 960px; 
+    margin: 0 auto;
+    padding: 30px;
+    color: "F4f1bb;
+
+}
+
+header{
+    background-color: #9bc1bc;
+    height: 150px;
+    text-align: center;
+    
+}
+nav{
+    background-color: #36c9c6;
+    height: 80px;
+}
+main{ 
+    background-color: #9bc1bc;
+}
+
+footer{
+    background-color: #e6ebe0;
+    text-align: center;
+    font-size: 24px;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #eD6a5a;
+    margin: 30px auto;
+    padding: 20px;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+table, table  td, table th{
+    border: 3px solid #9BC1C6;
+}
+table th{
+ background-color: #9bc1bc;
+ color: #F4f1bb;
+ height: 50px;
+}
+table td{
+    background-color: #36c9c6;
+    color: ##e6ebe0;
+    padding: 10px;
+}
+img{
+    width: 150px;
+    height: auto;
+}
+#tabla_2, #tabla_2 td{ 
+    background-color: transparent;
+    border: none;
+}body nav ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+body nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body nav ul li a {
+    text-decoration: none;
+    border-style: none;
+    border-color: #486CF8;
+    color: #F7F7F7;
+}
+body nav ul li a:link      ,body nav ul li a:visited {
+    color: #ED6A5A;
+    background-color: #652CF0;
+	
+}
+body nav ul li a:hover  {
+    color: #B6EB15;
+}
+#img_contacto {
+    width: 50%;
+    margin: 20px auto;
+    display: inline-block;
+}
+#tabla_zebra {
+    background-color: transparent;
+    width: 80%;
+}
+#tabla_zebra thead th {
+    background-color: #8A1C56;
+    color: #EFEED2;
+}
+
+#tabla_zebra td {
+    background-color: Transparent;
+    color: #FFFFFF;
+}
+#tabla_zebra tbody tr:nth-child(even)    {
+    background-color: #8452ED;
+}
+#tabla_zebra tbody tr:nth-child(odd)   {
+    background-color: #112880;
+}
+#tabla_hover {
+    width: 100%;
+}
+#tabla_hover tbody td {
+    background-color: transparent;
+}
+#tabla_hover tbody tr:hover   {
+    background-color: #78F0A7;
+}
+.section_galeria {
+    background-color: transparent;
+}
+#form1 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 50px;
+    background-color: #ADADEF;
+}
+#form1 input[type=text]   {
+    width: 100%;
+    padding: 5px;
+    background-color: #EBF8C7;
+}
+#form1 .formato_input {
+    padding: 5px;
+    background-color: #BEEBD9;
+    color: #558AE7;
+}
+
+#form1 #email {
+    width: 100%;
+}
+#form1 #Mensaje {
+    width: 100%;
+    height: 100px;
+    min-width: 0px;
+}
+#form1 #submit {
+    margin: 20px auto;
+    width: 30%;
+    display: block;
+    background-color: #F8C61A;
+    color: #7D4EF1;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#form1 label {
+    font-weight: bold;
+}
+#submit {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    background-color: #3DEBCD;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+main section h2 {
+    margin: 20px 0px;
+}
+main section p {
+    margin: 20px 0px;
+}
+
+
+
+ul li a {
+    width: 30%;
+}
+.section_practicas{
+            width: 30%;
+            height: 50px;
+            display: inline-block;
+            margin: 30px;
+        }
+.main_center{
+    text-align: center
+}
+h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 72px;
+}
